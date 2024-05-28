@@ -1,26 +1,10 @@
 {
-  "name": "@harang-jennie/nextjs-starter",
-  "version": "2.3.1",
-  "description": "A Next.js starter kit App Router template with React v18 + Yarn berry + TypeScript + ESLint + Jest + Cypress + Github Actions",
+  "name": "tailwindcss-playground",
+  "version": "0.0.1",
+  "description": "",
   "license": "MIT",
   "author": "Harang",
-  "keywords": [
-    "react",
-    "next-starter-kit",
-    "next-starter",
-    "nextjs",
-    "jest",
-    "eslint",
-    "react-testing-library",
-    "cypress",
-    "yarn-berry",
-    "github-actions",
-    "typescript",
-    "swc",
-    "nextjs-template",
-    "nextjs-v13-app-router"
-  ],
-  "bin": "bin/cli.js",
+  "keywords": [],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -43,9 +27,15 @@
   },
   "homepage": "https://github.com/mbti-nf-team/nextjs-starter#readme",
   "dependencies": {
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.379.0",
     "next": "^14.2.3",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.2.3",
@@ -59,6 +49,7 @@
     "@types/semantic-release": "^20",
     "@typescript-eslint/eslint-plugin": "^7.8.0",
     "@typescript-eslint/parser": "^7.8.0",
+    "autoprefixer": "^10.4.19",
     "cypress": "^12.1.0",
     "eslint": "^8.56.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -76,10 +67,12 @@
     "eslint-plugin-unused-imports": "^3.2.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
+    "postcss": "^8.4.38",
     "react-test-renderer": "^18.3.1",
     "sass": "^1.77.1",
     "semantic-release": "^20.1.0",
     "start-server-and-test": "^1.14.0",
+    "tailwindcss": "^3.4.3",
     "typescript": "^5.3.2"
   },
   "packageManager": "yarn@4.2.2"
